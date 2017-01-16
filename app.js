@@ -6,8 +6,10 @@ const _= require('lodash');
 const notes = require('./notes.js');
 
 
-console.log(_.isString(true));
-console.log(_.isString('Andrew'));
+// console.log(_.isString(true));
+// console.log(_.isString('Andrew'));
+var filteredArray = _.uniq(['Mike', 1, 'Mike', 1, 2, 3, 4]);
+console.log(filteredArray);
 
 // console.log('Result:', notes.add(9, -2));
 
