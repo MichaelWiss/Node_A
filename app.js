@@ -28,6 +28,9 @@ if (command === 'add') {
 	var note = notes.getNote(argv.title);
 	if (note) {
        console.log('Note found');
+       console.log('--');
+       console.log(`Title: ${note.title}`);
+       console.log(`Body: ${note.body}`);
 	} else {
 		console.log('Note not found');
 	}
